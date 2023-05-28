@@ -1,0 +1,228 @@
+/* tablet */
+@media (min-width: 700px) and (max-width: 1350px) {
+
+
+    // Portfolio
+    .portfolioBox {
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+
+
+    }
+
+    .kvadrat {
+
+
+        width: 75%;
+        height: 50vh;
+
+    }
+
+    // _________________
+
+    // MAIN
+
+    .box {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+
+
+    }
+
+    .frame {
+
+        width: 100%;
+        height: auto;
+
+
+
+    }
+
+
+
+    .box3 {
+
+
+        padding: 150px;
+
+    }
+
+    a {
+
+        padding: 0 50px;
+
+    }
+
+
+    .footer {
+
+
+        margin-top: 50%;
+
+    }
+
+}
+
+/* mobile */
+@media (max-width: 700px) {
+
+    // contactMe
+
+    .ikona {
+
+        margin: 10px;
+
+
+    }
+
+    .contactMeBox {
+
+
+        padding: 10%;
+
+    }
+
+    .contactMeBox>h1 {
+
+        text-align: center;
+
+
+    }
+
+    #eMail {
+
+
+        width: 100%;
+        height: 5vh;
+
+
+
+    }
+
+    #name {
+
+        width: 100%;
+        height: 5vh;
+
+
+    }
+
+    textarea {
+
+
+        width: 100%;
+        font-weight: bold;
+        margin-top: 5%;
+
+
+
+    }
+
+
+    .submit {
+        width: 100%;
+        height: 5vh;
+        font-weight: bolder;
+
+    }
+
+    form {
+
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        width: 100%;
+        height: 100vh;
+
+
+    }
+
+    // Portfolio
+
+    .portfolioBox {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+
+    }
+
+    .kvadrat {
+
+
+        width: 75%;
+        height: 50vh;
+
+    }
+
+    // _______________________
+
+    .box {
+
+        align-items: center;
+        justify-content: center;
+
+
+    }
+
+
+    a {
+
+
+        padding: 0;
+
+    }
+
+    .navBar {
+
+
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: flex-start;
+        height: auto;
+
+    }
+
+    .box3 {
+
+        width: 100%;
+        height: 50vh;
+
+
+    }
+
+    .footer {
+
+
+        display: none;
+        margin-top: 350%;
+
+
+    }
+
+
+
+    .red {
+
+        display: flex;
+
+
+    }
+
+    .red:first-child {
+        flex-wrap: wrap;
+    }
+}

@@ -1,0 +1,87 @@
+// ANIMATIONS - general
+
+@keyframes animacija {
+
+
+
+
+    100% {
+
+        background-color: rgba(0, 0, 0, 0.224);
+
+    }
+
+
+}
+
+.button:hover {
+
+    animation: animacija 1s forwards;
+
+
+}
+
+
+
+
+
+// portfolio white
+
+@keyframes white {
+
+
+
+    100% {
+
+
+        background-color: white;
+
+
+    }
+
+
+
+}
+
+.black:hover {
+
+
+    animation: white 0.5s forwards;
+
+
+}
+
+// portfolio black
+
+
+
+@keyframes black {
+
+
+
+    100% {
+
+        background-color: black;
+
+    }
+
+
+}
+
+.white:hover {
+
+
+    animation: black 0.5s forwards;
+
+
+}
+
+// footer
+
+footer:hover {
+
+
+    animation: animacija 1s forwards;
+
+
+}

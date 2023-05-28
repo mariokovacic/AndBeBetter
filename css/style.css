@@ -1,0 +1,390 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Fira Sans", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.box {
+  position: absolute;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  background-color: white;
+  grid-template-columns: 750px 750px;
+  grid-row: auto;
+  z-index: 100;
+  overflow: auto;
+}
+
+.frame {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin: 10px;
+}
+
+.span1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+  height: 50vh;
+  background-color: black;
+  position: static;
+  margin: 5px 0;
+  background-image: url(/img/280714e6-fbec-41b3-96ae-743f2f99e1cb.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 2px 2px 2px 2px white;
+}
+
+.navBar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  width: 100%;
+  height: 5vh;
+  background-color: white;
+}
+
+a {
+  width: 350%;
+  color: black;
+  font-weight: bolder;
+  text-decoration: none;
+  padding: 0 100px;
+  font-weight: bolder;
+}
+
+.box1 {
+  background-color: black;
+  padding: 10px;
+}
+
+.box2 {
+  color: black;
+  background-color: white;
+  padding: 30px;
+  font-weight: bold;
+}
+
+.box3 {
+  background-image: url(/img/b224df2a-6534-432f-bfd0-bbbb71d012df.jpg);
+  background-size: cover;
+  padding: 30px;
+}
+
+.box4 {
+  background-color: black;
+  padding: 30px;
+}
+
+h1 {
+  font-weight: bolder;
+  padding: 10px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-top: 100%;
+  padding: 0.5%;
+  height: 100%;
+  font-size: 10px;
+  color: white;
+  font-weight: bolder;
+  background-color: rgba(0, 0, 0, 0.316);
+}
+
+hr {
+  color: white;
+}
+
+#homepage {
+  width: auto;
+  height: auto;
+  font-size: large;
+  font-weight: bolder;
+  color: white;
+}
+
+.contentAboutMe {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0.5% 0 0 0;
+  border: 2px solid black;
+  padding: 10% 2% 10% 2%;
+  width: 100%;
+  height: 100%;
+}
+
+.AboutMe {
+  margin: 0 0 10px 0;
+}
+
+p {
+  font-weight: bold;
+}
+
+hr {
+  color: black;
+}
+
+.mainPortfolio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.comingSoon {
+  padding: 10%;
+  font-size: 500%;
+  font-weight: bolder;
+}
+
+.portfolioBox {
+  position: absolute;
+  margin: auto;
+  width: 100%;
+  min-height: 100%;
+  display: grid;
+  background-color: white;
+  grid-template-columns: 300px 300px 300px 300px 300px;
+  grid-row: auto;
+  z-index: 100;
+}
+
+.kvadrat {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin: 10px;
+}
+
+.white {
+  background-color: white;
+  color: black;
+}
+
+.black {
+  color: white;
+  background-color: black;
+}
+
+.contactMeBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+  min-height: 100%;
+  background-color: white;
+  border-top: 2px solid black;
+}
+
+.contactBox {
+  width: 100%;
+  height: 100%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin-top: 5%;
+}
+
+#eMail {
+  width: 260%;
+  height: 5vh;
+}
+
+#name {
+  width: 213%;
+  height: 5vh;
+}
+
+.submit {
+  width: 100%;
+  height: 5vh;
+  font-weight: bolder;
+}
+
+.imgCont {
+  margin-top: 10%;
+  font-weight: bolder;
+}
+
+.contactText2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10%;
+}
+
+@keyframes animacija {
+  100% {
+    background-color: rgba(0, 0, 0, 0.224);
+  }
+}
+.button:hover {
+  animation: animacija 1s forwards;
+}
+
+@keyframes white {
+  100% {
+    background-color: white;
+  }
+}
+.black:hover {
+  animation: white 0.5s forwards;
+}
+
+@keyframes black {
+  100% {
+    background-color: black;
+  }
+}
+.white:hover {
+  animation: black 0.5s forwards;
+}
+
+footer:hover {
+  animation: animacija 1s forwards;
+}
+
+/* tablet */
+@media (min-width: 700px) and (max-width: 1350px) {
+  .portfolioBox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .kvadrat {
+    width: 75%;
+    height: 50vh;
+  }
+  .box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .frame {
+    width: 100%;
+    height: auto;
+  }
+  .box3 {
+    padding: 150px;
+  }
+  a {
+    padding: 0 50px;
+  }
+  .footer {
+    margin-top: 50%;
+  }
+}
+/* mobile */
+@media (max-width: 700px) {
+  .ikona {
+    margin: 10px;
+  }
+  .contactMeBox {
+    padding: 10%;
+  }
+  .contactMeBox > h1 {
+    text-align: center;
+  }
+  #eMail {
+    width: 100%;
+    height: 5vh;
+  }
+  #name {
+    width: 100%;
+    height: 5vh;
+  }
+  textarea {
+    width: 100%;
+    font-weight: bold;
+    margin-top: 5%;
+  }
+  .submit {
+    width: 100%;
+    height: 5vh;
+    font-weight: bolder;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+  }
+  .portfolioBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .kvadrat {
+    width: 75%;
+    height: 50vh;
+  }
+  .box {
+    align-items: center;
+    justify-content: center;
+  }
+  a {
+    padding: 0;
+  }
+  .navBar {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    height: auto;
+  }
+  .box3 {
+    width: 100%;
+    height: 50vh;
+  }
+  .footer {
+    display: none;
+    margin-top: 350%;
+  }
+  .red {
+    display: flex;
+  }
+  .red:first-child {
+    flex-wrap: wrap;
+  }
+}/*# sourceMappingURL=style.css.map */
